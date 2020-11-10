@@ -1,0 +1,73 @@
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 1500px;
+  margin: auto;
+  margin-top: 10%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  padding: 60px 50px;
+  color: white;
+}
+
+header{
+  color: rgb(0,255,0);
+  text-align: center;
+  font-size: 30px
+}
+
+#logo{
+  width: 350px;
+}
+
+nav{
+  text-align:center;
+  background-color: rgb(0,255,0);
+  padding: 10px;
+}
+
+
+section{
+  margin-top: 15px;
+}
+
+section > div{
+  margin-top: 5px;
+}
+
+.name{
+  font-size: 30px;
+}
+
+.location:before{
+  content: " \21A6";
+}
+
+.location, .state{
+  font-size: 15px;
+}
+
+.charge{
+  border-radius: 5px;
+  height: 30px;
+}
+
+.orange{
+  background-color: orange;
+  width: 30%;
+}
+
+.green{
+  background-color: green;
+  width: 50%
+}
+
+.red{
+  background-color: red;
+  width: 10%;
+}
